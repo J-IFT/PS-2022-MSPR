@@ -1,0 +1,70 @@
+{
+	"1":{
+		"name":"Semabox lorem ipsum",
+		"version":"1.9.12",
+		"ip":"168.192.55.12",
+		"EtatConnexion":"1",
+		"SpeedTest":"152",
+		"machines":{
+			"1":{
+				"ip":"168.192.55.13",
+				"name":"ordi"
+			},
+			"2":{
+				"ip":"168.192.55.14",
+				"name":"ordi2"
+			}
+		}
+	},
+	"2":{
+		"name":"Semabox dolor sit amet",
+		"version":"1.9.12",
+		"ip":"168.192.55.12",
+		"EtatConnexion":"1",
+		"SpeedTest":"152",
+		"machines":{
+			"1":{
+				"ip":"168.192.55.13",
+				"name":"ordi"
+			},
+			"2":{
+				"ip":"168.192.55.14",
+				"name":"ordi2"
+			}
+		}
+	},
+	"3":{
+		"name":"Semabox comor bel franses",
+		"version":"1.8.3",
+		"ip":"168.192.55.12",
+		"EtatConnexion":"1",
+		"SpeedTest":"152",
+		"machines":{
+			"1":{
+				"ip":"168.192.55.13",
+				"name":"ordi"
+			},
+			"2":{
+				"ip":"168.192.55.14",
+				"name":"ordi2"
+			}
+		}
+	},
+	"4":{
+		"name":"Semabox como",
+		"version":"1.8.4",
+		"ip":"168.192.55.12",
+		"EtatConnexion":"1",
+		"SpeedTest":"152",
+		"machines":{
+			"1":{
+				"ip":"168.192.55.13",
+				"name":"ordi"
+			},
+			"2":{
+				"ip":"168.192.55.14",
+				"name":"ordi2"
+			}
+		}
+	}
+}

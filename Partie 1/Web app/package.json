@@ -1,0 +1,28 @@
+{
+  "name": "msrp_webapp",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js -e js,css,hbs,jpg,png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/aurock/msrp_webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aurock/msrp_webapp/issues"
+  },
+  "homepage": "https://gitlab.com/aurock/msrp_webapp#readme",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "livereload": "^0.9.3",
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20"
+  }
+}
