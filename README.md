@@ -6,26 +6,17 @@
 
 Septembre 2022
 
-Groupe : Juliette, Jeremy, Flavien, Loris & Manon
+Groupe : Juliette, Jeremy, Flavien, Loris & Manon (Partie 1)
+Groupe : Juliette, Jeremy, Flavien, Loris & Brice (Partie 2)
 
 ### 📌 Consignes du projet :
 
-- Concevoir l’infrastructure d’une plateforme virtuelle pour intégrer plusieurs machines physiques en une seule.
-
-- Maintenir en conditions opérationnelles l’infrastructure de l’entreprise en utilisant des logiciels de gestion de la haute disponibilité.
-
-- Identifier rapidement les systèmes qui nécessitent des correctifs et qui doivent être reconfigurés en fonction des préconisations constructeurs.
-
-- Automatiser les procédures de sauvegarde en rédigeant des scripts et en les intégrant avec des outils d’exploitation systèmes.
-
-- Déployer des moyens de protections matériels et logiciels pour assurer la disponibilité des données et des applicatifs conformément au plan de continuité établi par la direction de l’entreprise.
-
-[suite dans le pdf]
+[voir chaque pdf]
 
 ### 💻 Applications et langages utilisés :
 
-+ Python, Javascript,
-+ Visual studio,
++ Python, Javascript, ...
++ Visual studio, ...
 
 
 
