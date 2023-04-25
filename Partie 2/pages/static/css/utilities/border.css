@@ -1,0 +1,15 @@
+.border{
+    border: 1px solid #ddd;
+    background-color: #eee;
+    list-style-type: none;
+    padding: 0;
+}
+
+.border li{
+    padding: 8px 10px;
+    border-bottom: 10px solid white;
+}
+
+.border li:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="background">
+    <div id="top">
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="{% url 'index' %}">Accueil</a></li>
+            <li><a class="menu__item" href="{% url 'offerList' %}">Annonces</a></li>
+            <li><a class="menu__item" href="{% url 'offerAdd' %}">Ajouter une annonce</a></li>
+            <li><a class="menu__item" href="{% url 'plantList' %}">Plantes</a></li>
+            <li><a class="menu__item" href="{% url 'userDetail' 1 %}">Mon profil</a></li>
+            <li><a class="menu__item" href="{% url 'login' %}">Se déconnecter</a></li>
+        </ul>
+    </div>
+</div>
+
+<header class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>A'RO<b style="color:#B5E245">SA-JE</b></h1>
+    </div>
+</header>
+
+<article class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>Profil utilisateur</h1>
+        <a><img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" class="img-pp"> Jean Margaux</a>
+        <p>J'adore les fleurs lol</p>
+    </div>
+    
+    <div class="wrapper" data-size="narrow">
+        <h1>Mes plantes</h1>
+        <ul class="border">
+            <li><a href="#">Orchidée<br><img src="https://photos.gammvert.fr/v5/products/fiche_590/56490-orchidee-phalaenopsis-2-tiges-blanche-2.jpg" class="img-li"></a></li>
+            <li><a href="#">Ficus<br><img src="https://photos.gammvert.fr/v5/products/fiche_590/9880-ficus-golden-king.jpg" class="img-li"></a></li>
+        </ul>
+    </div>
+
+    <div class="wrapper" data-size="narrow">
+        <h1>Mes annonces</h1>
+        <ul class="border">
+            <li>
+                <div>
+                    <a href="#">Annonce 1<br>
+                    <img src="https://bergamotte.imgix.net/d4jcklq9l7b2nthf026antzn92ea?ixlib=rails-4.2.0&auto=format%2Ccompress&fit=crop&q=65&ar=528%3A660" class="img-li-offer">
+                    <p>Nom Prénom<br>06/03/2023</p></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<script>
+    $('.menu-burger, .menu-items').on('click', function() {
+      $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
+      $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+    });
+</script>
+
+{% endblock %}

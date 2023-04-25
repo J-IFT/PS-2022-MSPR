@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+
+@import 'global/reset.css';
+@import 'global/fonts.css';
+
+@import 'tailwindcss/components';
+
+@import 'global/variables.css';
+@import 'global/global-styles.css';
+
+@import 'composition/all.css';
+@import 'utilities/all.css';
+@import 'blocks/all.css';

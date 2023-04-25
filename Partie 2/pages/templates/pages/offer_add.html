@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div id="background">
+    <div id="top">
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="{% url 'index' %}">Accueil</a></li>
+            <li><a class="menu__item" href="{% url 'offerList' %}">Annonces</a></li>
+            <li><a class="menu__item" href="{% url 'offerAdd' %}">Ajouter une annonce</a></li>
+            <li><a class="menu__item" href="{% url 'plantList' %}">Plantes</a></li>
+            <li><a class="menu__item" href="{% url 'userDetail' 1 %}">Mon profil</a></li>
+            <li><a class="menu__item" href="{% url 'login' %}">Se déconnecter</a></li>
+        </ul>
+    </div>
+</div>
+
+<header class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>A'RO<b style="color:#B5E245">SA-JE</b></h1>
+    </div>
+</header>
+
+<article class="region">
+    <div class="wrapper" data-size="narrow">
+        <h2 class="text-center">Ajouter une annonce</h2>
+            <form class="flow">
+                <div class="stack stack-small">
+                    <label for="uname"><b>Titre</b></label>
+                    <input type="text" placeholder="Entrez le titre" name="uname" required>
+                </div>
+                <div class="stack stack-small">
+                    <label for="uname"><b>Description</b></label>
+                    <input type="text" placeholder="Entrez la description" name="uname" required>
+                </div>
+                <div class="stack stack-small">
+                    <label for="uname"><b>Photo</b></label>
+                    <input type="file" accept="image/x-png,image/jpeg,image/gif"/>
+                </div>
+                <button class="btn" type="submit">Ajouter</button>
+            </form>
+    </div>
+</article>
+
+{% endblock %}

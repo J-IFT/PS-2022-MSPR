@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<header class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>A'RO<b style="color:#B5E245">SA-JE</b></h1>
+        <div>
+            <img class="img" src="{% static "media/user.png" %}">
+        </div>
+    </div>
+</header>
+
+<article class="region">
+    <div class="wrapper" data-size="narrow">
+        <h2 class="text-center">Connexion</h2>
+            <form class="flow">
+                <div class="stack stack-small">
+                    <label for="uname"><b>Identifiant</b></label>
+                    <input type="text" placeholder="Entrez votre identifiant" name="uname" required>
+                </div>
+                <div class="stack stack-small">
+                    <label for="psw"><b>Mot de passe</b></label>
+                    <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+                </div>
+                    <button class="btn" type="submit">Se connecter</button>
+            </form>
+    </div>
+</article>
+
+{% endblock %}

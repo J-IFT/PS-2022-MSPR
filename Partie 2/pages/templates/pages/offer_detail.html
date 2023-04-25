@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="background">
+    <div id="top">
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="{% url 'index' %}">Accueil</a></li>
+            <li><a class="menu__item" href="{% url 'offerList' %}">Annonces</a></li>
+            <li><a class="menu__item" href="{% url 'offerAdd' %}">Ajouter une annonce</a></li>
+            <li><a class="menu__item" href="{% url 'plantList' %}">Plantes</a></li>
+            <li><a class="menu__item" href="{% url 'userDetail' 1 %}">Mon profil</a></li>
+            <li><a class="menu__item" href="{% url 'login' %}">Se déconnecter</a></li>
+        </ul>
+    </div>
+</div>
+
+<header class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>A'RO<b style="color:#B5E245">SA-JE</b></h1>
+    </div>
+</header>
+
+<article class="region">
+    <div class="wrapper" data-size="narrow">
+        <h1>Annonce</h1>
+        <img src="https://bergamotte.imgix.net/d4jcklq9l7b2nthf026antzn92ea?ixlib=rails-4.2.0&auto=format%2Ccompress&fit=crop&q=65&ar=528%3A660" width="100" height="100">
+
+        <h3>Titre d’annonce</h3>
+        <p>posté le 06/03/2023 par Jean Margot</p>
+        <p>PROPRIETAIRE</p>
+
+    </div>
+
+    <div class="wrapper" data-size="narrow">
+        <h2>Plantes</h2>
+        <ul class="border">
+            <li><a href="#">Orchidée<img src="https://photos.gammvert.fr/v5/products/fiche_590/56490-orchidee-phalaenopsis-2-tiges-blanche-2.jpg" class="img-li"></a></li>
+            <li><a href="#">Ficus<img src="https://photos.gammvert.fr/v5/products/fiche_590/9880-ficus-golden-king.jpg" class="img-li"></a></li>
+        </ul>
+        <p>Ceci est une description d’annonce Vulputate cras volutpat habitant eget cras sed quis tincidunt facilisis. In hendrerit fermentum neque imperdiet etiam lorem ultrices in.</p>
+    </div>
+
+    <div class="wrapper" data-size="narrow">
+        <h2>Commentaires</h2>
+        <ul class="border">
+            <li><p>Lorem ipsum dolor sit amet consectetur. Netus leo morlementum vitae varius amet faucibus. Sit feugiat magna eget ultrices. Quis pharetra eget turpis tellus hendrerit maecenas. Et viverra ante porttitor libero morbi urna gravida venenatis. Tempus cursus tellus tortor gravida tellus.</p>
+                <p>posteur, 06/03/2023</p></li>
+            <li><p>Lorem ipsum dolor sit amet consectetur. Netus leo morlementum vitae varius amet faucibus. Sit feugiat magna eget ultrices. Quis pharetra eget turpis tellus hendrerit maecenas. Et viverra ante porttitor libero morbi urna gravida venenatis. Tempus cursus tellus tortor gravida tellus.</p>
+                <p>posteur, 06/03/2023</p></li>
+        </ul>
+    </div>
+</article>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+:root {
+    --ff-primary: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --ff-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --ff-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+
+    --clr-neutral-400: #F4F0F4;
+    --clr-neutral-500: #E8E3E4;
+    --clr-neutral-700: #B6AAAB;
+    --clr-neutral-800: #9E8D8F;
+
+    --clr-text-400: #1B2C00;
+    --clr-text-500: #131F00;
+
+    --clr-primary-400: #F46500;
+    --clr-primary-500: #D65C05;
+
+    --clr-secondary-400: #4D7701;
+
+    --clr-red: #E53935;
+    --clr-yellow: #F6A434;
+    --clr-green: #91B859;
+    --clr-blue: #6182B8;
+    --clr-purple: #7C4DFF;
+    --clr-orange: #F76D47;
+    --clr-cyan: #39ADB5;
+    --clr-white: #FFFFFF;
+    --clr-gray: #AABFC9;
+    --clr-black: #272727;
+
+    --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+    --step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+    --step-2: clamp(1.62rem, calc(1.50rem + 0.58vw), 1.95rem);
+    --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+    --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+    --step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
+
+    --fw-regular: 450;
+    --fw-bold: 500;
+    --fw-bolder: 550;
+    --fw-black: 700;
+
+    --space-s: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+    --space-m: clamp(1.69rem, calc(1.62rem + 0.33vw), 1.88rem);
+    --space-l: clamp(2.25rem, calc(2.16rem + 0.43vw), 2.50rem);
+    --space-xl: clamp(3.38rem, calc(3.24rem + 0.65vw), 3.75rem);
+    --space-2xl: clamp(4.50rem, calc(4.33rem + 0.87vw), 5.00rem);
+    --space-3xl: clamp(6.75rem, calc(6.49rem + 1.30vw), 7.50rem);
+
+    --gutter: var(--space-m);
+    --border-radius: 1rem;
+
+    --shadow-high: 0 4px 12px rgba(0, 0, 0, 0.25);
+    --shadow-low: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    --tracking: -0.05ch;
+    --tracking-s: -0.075ch;
+}
