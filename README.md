@@ -7,6 +7,7 @@
 Septembre 2022
 
 Groupe : Juliette, Jeremy, Flavien, Loris & Manon (Partie 1)
+
 Groupe : Juliette, Jeremy, Flavien, Loris & Brice (Partie 2)
 
 ### 📌 Consignes du projet :
